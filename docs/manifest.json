@@ -1,0 +1,23 @@
+{
+  "id": "community.my.stremio.addon",
+  "version": "1.0.0",
+  "name": "My Picks",
+  "description": "Meri chuni hui movies, legal free streams ke saath.",
+  "resources": [
+    "catalog",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "tt"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "my-picks",
+      "name": "My Picks"
+    }
+  ]
+}
